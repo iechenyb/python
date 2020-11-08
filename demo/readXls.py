@@ -22,3 +22,7 @@ content = sheet.row_values(0)
 print(content)
 
 #循环遍历
+print('循环遍历')
+for i in range(sheet.nrows):
+   # content = sheet.row_values(i)
+    print(sheet.row_values(i))
